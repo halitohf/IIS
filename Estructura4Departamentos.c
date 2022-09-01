@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
-
 
     //declaracion de estructura
     struct departamentos{
@@ -26,6 +24,6 @@
         printf("\n-------------------------");
         
         
-    getch();
+    getchar();
     //System("PAUSE");
     } //termina main

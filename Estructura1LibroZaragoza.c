@@ -1,7 +1,6 @@
 //Programa estructura 1 
 
 #include <stdio.h>//libreria estandar de entrada y salida
-#include <conio.h>//para gestion y manipulacion del programa
 
 //declaracion de estructura
     struct info_libro{
@@ -23,5 +22,5 @@ int main() {//inicia funcion principal main para compilar y ejecutar programa
     printf("---------------------------------------\n");
     printf("Autor: Jose de Jesus Zaragoza -- ISS --");
 
-    getch();//pausa
+    getchar();//pausa
 }//termina funcion main
