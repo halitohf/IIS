@@ -23,7 +23,10 @@
 
 int main() {
     //Llamada de la funcion erroresSistema()
-    erroresSistem(9);
+    int num;
+    printf("\nIndica el numero de error");
+    scanf("%d", num);
+    erroresSistem(num);
     printf("\nAutor Jose de Jesus Zaragoza - 1/Sep/22\n");
 
     getchar();
